@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(216, 127, 127);
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.first-text{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+h1{
+    margin-right: 25px;
+    color: rgb(218, 164, 164);
+}
+.first-list{
+    color: white;
+}
+h1:hover{
+    color: rgb(241, 204, 204);
+    cursor: pointer;
+}
+.second-text{
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 60px;
+}
+.cards{
+    display: flex;
+}
+.left-card,
+.right-card{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(228, 171, 181);
+}
+/* .left-card{
+    position: relative;
+}
+.left-card::before{
+    content: '';
+    position: absolute;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+} */
+.middle-card{
+    display: flex;
+}
+.middle-card1,
+.middle-card2,
+.middle-card3{
+    width: 230px;
+    height: 230px;
+    padding-top: 110px;
+    padding-left: 130px;
+    background-color: rgb(56, 54, 54);
+}
+.middle-card1 > h3,
+.middle-card2 > h3,
+.middle-card3 > h3{
+    font-size: 26px;
+    color: rgb(161, 94, 94);
+}
+.middle-card1 > h2,
+.middle-card2 > h2,
+.middle-card3 > h2{
+    font-size: 36px;
+    color: white;
+    margin-top: 10px;
+}
+.middle-card2{
+    background-color: rgb(56, 49, 49);
+}
+.middle-card3{
+    background-color: rgb(29, 27, 27);
+}
+button{
+    text-transform: uppercase;
+    padding: 20px 120px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(15, 12, 12);
+    border: none;
+    margin-left: 130px;
+    margin-top: -30px;transform: scaleX(10px);
+}
+button:hover{
+    /* transform: rotate(180deg); */
+    background-color: rgb(27, 23, 23);
+    cursor: pointer;
+}
